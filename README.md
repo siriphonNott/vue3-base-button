@@ -1,7 +1,5 @@
 # Vue3 Base Button
 
-[![NPM][npm]][npm-url]
-
 > Declarative base button component for Vue3.
 
 Component base button for Vue3 with Typescript support
