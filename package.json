@@ -1,7 +1,7 @@
 {
   "name": "vue3-base-button",
   "description": "Component base button for Vue3 with Typescript support",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "author": {
     "name": "Siriphon Panyathipo",
