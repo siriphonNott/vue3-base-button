@@ -1,0 +1,4 @@
+.base-button {
+  color: var(--base-button-text-color);
+  background: var(--base-button-bg-color);
+}

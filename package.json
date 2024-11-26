@@ -1,0 +1,55 @@
+{
+  "name": "vue3-base-button",
+  "description": "Component base button for Vue3 with Typescript support",
+  "version": "1.0.2",
+  "type": "module",
+  "author": {
+    "name": "Siriphon Panyathipo",
+    "nickname": "NottDev",
+    "email": "siriphonnot@gmail.com",
+    "github": "https://github.com/siriphonNott"
+  },
+  "main": "./dist/vue3-base-button.umd.js",
+  "module": "./dist/vue3-base-button.es.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/vue3-base-button.es.js",
+      "require": "./dist/vue3-base-button.umd.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "keywords": [
+    "vue3-base-button",
+    "base-button",
+    "button"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/siriphonNott/vue3-base-button"
+  },
+  "homepage": "https://github.com/siriphonNott/vue3-base-button",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.1",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10",
+    "vite-plugin-css-injected-by-js": "^3.5.2",
+    "vite-plugin-dts": "^4.3.0",
+    "vue": "^3.5.12",
+    "vue-tsc": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  }
+}
